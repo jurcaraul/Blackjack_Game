@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+/* html body {
+  margin: 0;
+  padding: 0;
+} */
+body {
+  color: white !important;;
+  overflow: hidden;
+  width: auto;
+  height: 100vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url(./backgroung.jpg);
+  background-size:cover ;
+  background-repeat: no-repeat;
+  /* text-align: center; */
+}
+/* .text {
+  color: rgb(255, 255, 255);
+} */
+/* h1 {
+  color: rgb(230, 130, 38) !important;
+} */
+/* #message-el {
+  font-style: italic;
+} */
+
+/* button {
+  border: none;
+  border-radius: 2px;
+  width: 150px;
+  background-color: goldenrod;
+  color: #016f32;
+  margin: 4px;
+} */
+
+
+
+button:hover {
+  background-color: #016f32a1;
+  
+}

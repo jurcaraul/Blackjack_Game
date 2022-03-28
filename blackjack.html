@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="blackjack.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Blackjack</title>
+    <link rel="icon" href="./icons8-casino-67.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="h1 text-center m-5">Blackjack</div>
+    <div id="message-el" class="h2 text-center m-5">
+      Do you want to play a round?
+    </div>
+    <div id="cards-el" class=" h3 text-center m-5">Cards:</div>
+    <div id="sum-el" class="h3 text-center">Sum:</div>
+    <div class="d-flex flex-column justify-content-around align-items-center">
+      <button
+        id="start-btn"
+        class="btn btn-lg btn-light m-3"
+        type="button"
+        onclick="startGame()"
+      >
+        Start Game
+      </button>
+      <!-- <br> -->
+      <button
+        id="newCard-el"
+        class="btn btn-lg btn-success m-3"
+        onclick="newCard()"
+      >
+        New   Card
+      </button>
+    </div>
+
+    <p id="player-el" class="text-center"></p>
+    <script src="blackjack.js"></script>
+  </body>
+</html>
